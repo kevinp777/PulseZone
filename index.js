@@ -1,15 +1,15 @@
 $( document ).ready(function() {
     console.log( "ready!" );
 
-var one_drone = new Audio("audio/01d_drone.mp3");
-var two_drone = new Audio("audio/02a_drone.mp3");
-var three_spark = new Audio("audio/03spark.mp3");
-var four_wash = new Audio("audio/04fsharpmin_wash.mp3");
-var five_air = new Audio("audio/05air.mp3");
-var six_beep = new Audio("audio/06beep.mp3");
-var seven_synth = new Audio("audio/07synth.mp3");
-var eight_synth = new Audio("audio/08synth.mp3");
-var nine_synth = new Audio("audio/09synth.mp3");
+var one_drone = new Audio("audio/pulse_zone_v2/pz_1.mp3");
+var two_drone = new Audio("audio/pulse_zone_v2/pz_2.mp3");
+var three_spark = new Audio("audio/pulse_zone_v2/pz_3.mp3");
+var four_wash = new Audio("audio/pulse_zone_v2/pz_4.mp3");
+var five_air = new Audio("audio/pulse_zone_v2/pz_5.mp3");
+var six_beep = new Audio("audio/pulse_zone_v2/pz_6.mp3");
+var seven_synth = new Audio("audio/pulse_zone_v2/pz_7.mp3");
+var eight_synth = new Audio("audio/pulse_zone_v2/pz_8.mp3");
+var nine_synth = new Audio("audio/pulse_zone_v2/pz_9.mp3");
 // nine
 
 
