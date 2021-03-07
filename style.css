@@ -59,7 +59,6 @@ nav {
 p {
   color: #f6f5f7;
   font-size: 16px;
-  font-family: sans-serif;
 }
 
 .material-icons {
@@ -109,12 +108,12 @@ keypad styles
 	}
 .onecolor {
 	background-color: #740CDD;
-	animation-name: color;
+	animation-name: onecolor;
  	animation-duration: 1.5s;
   animation-iteration-count: infinite;
 }
 
-@keyframes color {
+@keyframes onecolor {
   0% {
     background-color: #740CDD;
   }
@@ -136,7 +135,7 @@ keypad styles
   transition: background 1s ease;
 	}
 .twocolor {
-	background-color: #CD03A6 !important;
+	background-color: #CD03A6;
 	animation-name: twocolor;
  	animation-duration: 1.7s;
   animation-iteration-count: infinite;
@@ -166,13 +165,13 @@ keypad styles
   transition: background 1s ease;
 	}
 .threecolor {
-	background-color: #740CDD !important;
-	animation-name: color;
+	background-color: #740CDD;
+	animation-name: threecolor;
  	animation-duration: 1.5s;
   animation-iteration-count: infinite;
 }
 
-/*@keyframes color {
+@keyframes threecolor {
   0% {
     background-color: #740CDD;
   }
@@ -183,7 +182,7 @@ keypad styles
     background-color: #740CDD;
   }
 
-}*/
+}
 
 .four {
 	grid-column: 1;
@@ -194,7 +193,7 @@ keypad styles
   transition: background 1s ease;
 	}
 .fourcolor {
-	background-color: #37A6F2 !important;
+	background-color: #37A6F2;
 	animation-name: fourcolor;
  	animation-duration: 1.8s;
   animation-iteration-count: infinite;
@@ -221,13 +220,13 @@ keypad styles
   transition: background 1s ease;
 	}
 .fivecolor {
-	background-color: #740CDD !important;
-	animation-name: color;
+	background-color: #740CDD;
+	animation-name: fivecolor;
  	animation-duration: 1.7s;
   animation-iteration-count: infinite;
 }
 
-/*@keyframes color {
+@keyframes fivecolor {
   0% {
     background-color: #740CDD;
   }
@@ -237,7 +236,7 @@ keypad styles
   100% {
     background-color: #740CDD;
   }
-}*/
+}
 
 .six {
 	grid-column: 3;
@@ -248,7 +247,7 @@ keypad styles
   transition: background 1s ease;
 	}
 .sixcolor {
-	background-color: #37A6F2 !important;
+	background-color: #37A6F2;
 	animation-name: sixcolor;
  	animation-duration: 1.5s;
   animation-iteration-count: infinite;
@@ -275,13 +274,13 @@ keypad styles
   transition: background 1.5s ease;
 	}
 .sevencolor {
-	background-color: #740CDD !important;
-	animation-name: color;
+	background-color: #740CDD;
+	animation-name: sevencolor;
  	animation-duration: 1.4s;
   animation-iteration-count: infinite;
 }
 
-/*@keyframes color {
+@keyframes sevencolor {
   0% {
     background-color: #740CDD;
   }
@@ -291,7 +290,7 @@ keypad styles
   100% {
     background-color: #740CDD;
   }
-}*/
+}
 
 .eight {
 	grid-column: 2;
@@ -302,7 +301,7 @@ keypad styles
   transition: background 1s ease;
 	}
 .eightcolor {
-	background-color: #CD03A6 !important;
+	background-color: #CD03A6;
 	animation-name: eightcolor;
  	animation-duration: 1.6s;
   animation-iteration-count: infinite;
@@ -329,13 +328,13 @@ keypad styles
   transition: background 1s ease;
 	}
 .ninecolor {
-	background-color: #740CDD !important;
-	animation-name: color;
+	background-color: #740CDD;
+	animation-name: ninecolor;
  	animation-duration: 1.5s;
   animation-iteration-count: infinite;
 }
 
-/*@keyframes color {
+@keyframes ninecolor {
   0% {
     background-color: #740CDD;
   }
@@ -346,7 +345,7 @@ keypad styles
     background-color: #740CDD;
   }
 }
-*/
+
 
 
 
