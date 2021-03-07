@@ -108,7 +108,7 @@ keypad styles
   transition: background 1s ease;
 	}
 .onecolor {
-	background-color: #740CDD !important;
+	background-color: #740CDD;
 	animation-name: color;
  	animation-duration: 1.5s;
   animation-iteration-count: infinite;
