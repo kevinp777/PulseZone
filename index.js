@@ -1,27 +1,27 @@
 $( document ).ready(function() {
     console.log( "ready!" );
 
-var one_drone = new Audio("audio/pulse_zone_v2/pz_1.mp3");
-var two_drone = new Audio("audio/pulse_zone_v2/pz_2.mp3");
-var three_spark = new Audio("audio/pulse_zone_v2/pz_3.mp3");
-var four_wash = new Audio("audio/pulse_zone_v2/pz_4.mp3");
-var five_air = new Audio("audio/pulse_zone_v2/pz_5.mp3");
-var six_beep = new Audio("audio/pulse_zone_v2/pz_6.mp3");
-var seven_synth = new Audio("audio/pulse_zone_v2/pz_7.mp3");
-var eight_synth = new Audio("audio/pulse_zone_v2/pz_8.mp3");
-var nine_synth = new Audio("audio/pulse_zone_v2/pz_9.mp3");
+var kp1 = new Audio("audio/pulse_zone_v2/pz_1.mp3");
+var kp2 = new Audio("audio/pulse_zone_v2/pz_2.mp3");
+var kp3 = new Audio("audio/pulse_zone_v2/pz_3.mp3");
+var kp4 = new Audio("audio/pulse_zone_v2/pz_4.mp3");
+var kp5 = new Audio("audio/pulse_zone_v2/pz_5.mp3");
+var kp6 = new Audio("audio/pulse_zone_v2/pz_6.mp3");
+var kp7 = new Audio("audio/pulse_zone_v2/pz_7.mp3");
+var kp8 = new Audio("audio/pulse_zone_v2/pz_8.mp3");
+var kp9 = new Audio("audio/pulse_zone_v2/pz_9.mp3");
 // nine
 
 
-one_drone.loop = true;
-two_drone.loop = true;
-three_spark.loop = true;
-four_wash.loop = true;
-five_air.loop = true;
-six_beep.loop = true;
-seven_synth.loop = true;
-eight_synth.loop = true;
-nine_synth.loop = true;
+kp1.loop = true;
+kp2.loop = true;
+kp3.loop = true;
+kp4.loop = true;
+kp5.loop = true;
+kp6.loop = true;
+kp7.loop = true;
+kp8.loop = true;
+kp9.loop = true;
 
 var playing = false;
 
@@ -31,16 +31,16 @@ var playing = false;
 // one
  $(document).on('click', '.one', function() {
 
-    if (one_drone.currentTime > 0) {
-    	one_drone.load();
-    	one_drone.pause();
+    if (kp1.currentTime > 0) {
+    	kp1.load();
+    	kp1.pause();
     	var color = $(this).attr('class').split(' ')[0];
     	var colorclassname = color + 'color';
     	console.log(colorclassname);
     	$(this).toggleClass(colorclassname);
     }
     else {
-    	one_drone.play();
+    	kp1.play();
     	var color = $(this).attr('class').split(' ')[0];
     	var colorclassname = color + 'color';
     	console.log(colorclassname);
@@ -52,16 +52,16 @@ var playing = false;
 // two
  $(document).on('click', '.two', function() {
 
-    if (two_drone.currentTime > 0) {
-    	two_drone.load();
-    	two_drone.pause();
+    if (kp2.currentTime > 0) {
+    	kp2.load();
+    	kp2.pause();
     	var color = $(this).attr('class').split(' ')[0];
     	var colorclassname = color + 'color';
     	console.log(colorclassname);
     	$(this).toggleClass(colorclassname);
     }
     else {
-    	two_drone.play();
+    	kp2.play();
     	var color = $(this).attr('class').split(' ')[0];
     	var colorclassname = color + 'color';
     	console.log(colorclassname);
@@ -74,16 +74,16 @@ var playing = false;
 
 $(document).on('click', '.three', function() {
 
-    if (three_spark.currentTime > 0) {
-        three_spark.load();
-        three_spark.pause();
+    if (kp3.currentTime > 0) {
+        kp3.load();
+        kp3.pause();
         var color = $(this).attr('class').split(' ')[0];
         var colorclassname = color + 'color';
         console.log(colorclassname);
         $(this).toggleClass(colorclassname);
     }
     else {
-        three_spark.play();
+        kp3.play();
         var color = $(this).attr('class').split(' ')[0];
         var colorclassname = color + 'color';
         console.log(colorclassname);
@@ -96,16 +96,16 @@ $(document).on('click', '.three', function() {
 
 $(document).on('click', '.four', function() {
 
-    if (four_wash.currentTime > 0) {
-        four_wash.load();
-        four_wash.pause();
+    if (kp4.currentTime > 0) {
+        kp4.load();
+        kp4.pause();
         var color = $(this).attr('class').split(' ')[0];
         var colorclassname = color + 'color';
         console.log(colorclassname);
         $(this).toggleClass(colorclassname);
     }
     else {
-        four_wash.play();
+        kp4.play();
         var color = $(this).attr('class').split(' ')[0];
         var colorclassname = color + 'color';
         console.log(colorclassname);
@@ -118,16 +118,16 @@ $(document).on('click', '.four', function() {
 
 $(document).on('click', '.five', function() {
 
-    if (five_air.currentTime > 0) {
-        five_air.load();
-        five_air.pause();
+    if (kp5.currentTime > 0) {
+        kp5.load();
+        kp5.pause();
         var color = $(this).attr('class').split(' ')[0];
         var colorclassname = color + 'color';
         console.log(colorclassname);
         $(this).toggleClass(colorclassname);
     }
     else {
-        five_air.play();
+        kp5.play();
         var color = $(this).attr('class').split(' ')[0];
         var colorclassname = color + 'color';
         console.log(colorclassname);
@@ -140,16 +140,16 @@ $(document).on('click', '.five', function() {
 
 $(document).on('click', '.six', function() {
 
-    if (six_beep.currentTime > 0) {
-        six_beep.load();
-        six_beep.pause();
+    if (kp6.currentTime > 0) {
+        kp6.load();
+        kp6.pause();
         var color = $(this).attr('class').split(' ')[0];
         var colorclassname = color + 'color';
         console.log(colorclassname);
         $(this).toggleClass(colorclassname);
     }
     else {
-        six_beep.play();
+        kp6.play();
         var color = $(this).attr('class').split(' ')[0];
         var colorclassname = color + 'color';
         console.log(colorclassname);
@@ -162,16 +162,16 @@ $(document).on('click', '.six', function() {
 
 $(document).on('click', '.seven', function() {
 
-    if (seven_synth.currentTime > 0) {
-        seven_synth.load();
-        seven_synth.pause();
+    if (kp7.currentTime > 0) {
+        kp7.load();
+        kp7.pause();
         var color = $(this).attr('class').split(' ')[0];
         var colorclassname = color + 'color';
         console.log(colorclassname);
         $(this).toggleClass(colorclassname);
     }
     else {
-        seven_synth.play();
+        kp7.play();
         var color = $(this).attr('class').split(' ')[0];
         var colorclassname = color + 'color';
         console.log(colorclassname);
@@ -184,16 +184,16 @@ $(document).on('click', '.seven', function() {
 
 $(document).on('click', '.eight', function() {
 
-    if (eight_synth.currentTime > 0) {
-        eight_synth.load();
-        eight_synth.pause();
+    if (kp8.currentTime > 0) {
+        kp8.load();
+        kp8.pause();
         var color = $(this).attr('class').split(' ')[0];
         var colorclassname = color + 'color';
         console.log(colorclassname);
         $(this).toggleClass(colorclassname);
     }
     else {
-        eight_synth.play();
+        kp8.play();
         var color = $(this).attr('class').split(' ')[0];
         var colorclassname = color + 'color';
         console.log(colorclassname);
@@ -206,26 +206,20 @@ $(document).on('click', '.eight', function() {
 
 $(document).on('click', '.nine', function() {
 
-    if (nine_synth.currentTime > 0) {
-        nine_synth.load();
-        nine_synth.pause();
+    if (kp9.currentTime > 0) {
+        kp9.load();
+        kp9.pause();
         var color = $(this).attr('class').split(' ')[0];
         var colorclassname = color + 'color';
         console.log(colorclassname);
         $(this).toggleClass(colorclassname);
     }
     else {
-        nine_synth.play();
+        kp9.play();
         var color = $(this).attr('class').split(' ')[0];
         var colorclassname = color + 'color';
         console.log(colorclassname);
         $(this).toggleClass(colorclassname);
     }
-  
   });
-
-
- 
-
 });
-
