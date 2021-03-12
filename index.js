@@ -10,8 +10,6 @@ var kp6 = new Audio("audio/pulse_zone_v2/pz_6.mp3");
 var kp7 = new Audio("audio/pulse_zone_v2/pz_7.mp3");
 var kp8 = new Audio("audio/pulse_zone_v2/pz_8.mp3");
 var kp9 = new Audio("audio/pulse_zone_v2/pz_9.mp3");
-// nine
-
 
 kp1.loop = true;
 kp2.loop = true;
