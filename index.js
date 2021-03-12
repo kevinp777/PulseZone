@@ -1,15 +1,15 @@
 $( document ).ready(function() {
     console.log( "ready!" );
 
-var kp1 = new Audio("audio/pulse_zone_v2/pz_1.mp3");
-var kp2 = new Audio("audio/pulse_zone_v2/pz_2.mp3");
-var kp3 = new Audio("audio/pulse_zone_v2/pz_3.mp3");
-var kp4 = new Audio("audio/pulse_zone_v2/pz_4.mp3");
-var kp5 = new Audio("audio/pulse_zone_v2/pz_5.mp3");
-var kp6 = new Audio("audio/pulse_zone_v2/pz_6.mp3");
-var kp7 = new Audio("audio/pulse_zone_v2/pz_7.mp3");
-var kp8 = new Audio("audio/pulse_zone_v2/pz_8.mp3");
-var kp9 = new Audio("audio/pulse_zone_v2/pz_9.mp3");
+var kp1 = new Audio("audio/dronezoneAudio/dz_1.mp3");
+var kp2 = new Audio("audio/dronezoneAudio/dz_2.mp3");
+var kp3 = new Audio("audio/dronezoneAudio/dz_3.mp3");
+var kp4 = new Audio("audio/dronezoneAudio/dz_4.mp3");
+var kp5 = new Audio("audio/dronezoneAudio/dz_5.mp3");
+var kp6 = new Audio("audio/dronezoneAudio/dz_6.mp3");
+var kp7 = new Audio("audio/dronezoneAudio/dz_7.mp3");
+var kp8 = new Audio("audio/dronezoneAudio/dz_8.mp3");
+var kp9 = new Audio("audio/dronezoneAudio/dz_9.mp3");
 
 kp1.loop = true;
 kp2.loop = true;
