@@ -88,12 +88,10 @@ img {
 
 
 .container {
-	display: grid;
-	grid-template-columns: repeat(3);
-	grid-gap: 10px;
-	grid-auto-rows: minmax(200px, auto);
-	width: 620px;
-  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 620px;
+  margin: auto;
 }
 
 /*=====================================================
@@ -101,6 +99,11 @@ keypad styles
 =====================================================*/
 
 .keypad {
+  position: relative;
+  flex-basis: calc(33.333% - 10px);
+  margin: 5px;
+  border: 1px solid;
+  box-sizing: border-box;
   background: #1c1c1c;
   border: none;
   border-radius: 20px;
@@ -112,7 +115,10 @@ keypad styles
 -moz-box-shadow: 2px 0px 40px 2px rgba(0,0,0,0.3) inset;
 }
 
-.one  {
+.one::before  {
+  content: '';
+  display: block;
+  padding-top: 100%;
   grid-column: 1;
   grid-row: 1;
 	}
@@ -150,7 +156,10 @@ keypad styles
     }
   }
 
-.two {
+.two::before {
+  content: '';
+  display: block;
+  padding-top: 100%;
   grid-column: 2;
   grid-row: 1;
 	}
@@ -188,7 +197,10 @@ keypad styles
     }
   }
 
-.three {
+.three::before {
+  content: '';
+  display: block;
+  padding-top: 100%;
   grid-column: 3;
   grid-row: 1;
 	}
@@ -197,7 +209,10 @@ keypad styles
   transition: background 1s ease;
 	}
 
-.four {
+.four::before {
+  content: '';
+  display: block;
+  padding-top: 100%;
 	grid-column: 1;
   grid-row: 2;
 	}
@@ -206,7 +221,10 @@ keypad styles
   transition: background 1s ease;
 	}
 
-.five {
+.five::before {
+  content: '';
+  display: block;
+  padding-top: 100%;
 	grid-column: 2;
   grid-row: 2;
 	}
@@ -215,7 +233,10 @@ keypad styles
   transition: background 1s ease;
 	}
 
-.six {
+.six::before {
+  content: '';
+  display: block;
+  padding-top: 100%;
 	grid-column: 3;
   grid-row: 2;
 	}
@@ -224,7 +245,10 @@ keypad styles
   transition: background 1s ease;
 	}
 
-.seven {
+.seven::before {
+  content: '';
+  display: block;
+  padding-top: 100%;
 	grid-column: 1;
   grid-row: 3;
 	}
@@ -233,7 +257,10 @@ keypad styles
   transition: background 1.5s ease;
 	}
 
-.eight {
+.eight::before {
+  content: '';
+  display: block;
+  padding-top: 100%;
 	grid-column: 2;
   grid-row: 3;
 	}
@@ -242,7 +269,10 @@ keypad styles
   transition: background 1s ease;
 	}
 
-.nine {
+.nine::before {
+  content: '';
+  display: block;
+  padding-top: 100%;
 	grid-column: 3;
   grid-row: 3;
 	}
